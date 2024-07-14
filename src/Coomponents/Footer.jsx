@@ -1,4 +1,6 @@
 import React from 'react';
+import Image1 from '../assets/images/footer-blog-1.jpg';
+import Image2 from '../assets/images/footer-blog-2.jpg';
 
 function Footer() {
   return (
@@ -111,7 +113,8 @@ function Footer() {
                   {/* Double check this line  --width: 70, --height: 75  */}
                   <figure className='card-banner img-holder' style={{ width: 70, height: 75 }}>
                     <img
-                      src='./assets/images/footer-blog-1.jpg'
+                      //   src='./assets/images/footer-blog-1.jpg'
+                      src={Image1}
                       width='70'
                       height='75'
                       loading='lazy'
@@ -141,7 +144,8 @@ function Footer() {
                   {/* style='--width: 70; --height: 75;' */}
                   <figure className='card-banner img-holder' style={{ width: 70, height: 75 }}>
                     <img
-                      src='./assets/images/footer-blog-2.jpg'
+                      //   src='./assets/images/footer-blog-2.jpg'
+                      src={Image2}
                       width='70'
                       height='75'
                       loading='lazy'

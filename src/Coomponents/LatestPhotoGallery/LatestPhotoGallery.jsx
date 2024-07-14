@@ -1,4 +1,8 @@
 import React from 'react';
+import Image1 from '../../assets/images/gallery-1.jpg';
+import Image2 from '../../assets/images/gallery-2.jpg';
+import Image3 from '../../assets/images/gallery-3.jpg';
+import Image4 from '../../assets/images/gallery-4.jpg';
 
 function LatestPhotoGallery() {
   return (
@@ -26,7 +30,8 @@ function LatestPhotoGallery() {
             <div className='gallery-card'>
               <figure className='card-banner img-holder' style={{ width: 422, height: 550 }}>
                 <img
-                  src='./assets/images/gallery-1.jpg'
+                  //   src='./assets/images/gallery-1.jpg'
+                  src={Image1}
                   width='422'
                   height='550'
                   loading='lazy'
@@ -50,14 +55,7 @@ function LatestPhotoGallery() {
           <li>
             <div className='gallery-card'>
               <figure className='card-banner img-holder' style={{ width: 422, height: 550 }}>
-                <img
-                  src='./assets/images/gallery-2.jpg'
-                  width='422'
-                  height='550'
-                  loading='lazy'
-                  alt='Hair Cutting'
-                  className='img-cover'
-                />
+                <img src={Image2} width='422' height='550' loading='lazy' alt='Hair Cutting' className='img-cover' />
               </figure>
 
               <div className='card-content'>
@@ -75,14 +73,7 @@ function LatestPhotoGallery() {
           <li>
             <div className='gallery-card'>
               <figure className='card-banner img-holder' style={{ width: 422, height: 550 }}>
-                <img
-                  src='./assets/images/gallery-3.jpg'
-                  width='422'
-                  height='550'
-                  loading='lazy'
-                  alt='Hair Cutting'
-                  className='img-cover'
-                />
+                <img src={Image3} width='422' height='550' loading='lazy' alt='Hair Cutting' className='img-cover' />
               </figure>
 
               <div className='card-content'>
@@ -100,14 +91,7 @@ function LatestPhotoGallery() {
           <li>
             <div className='gallery-card'>
               <figure className='card-banner img-holder' style={{ width: 422, height: 550 }}>
-                <img
-                  src='./assets/images/gallery-4.jpg'
-                  width='422'
-                  height='550'
-                  loading='lazy'
-                  alt='Hair Cutting'
-                  className='img-cover'
-                />
+                <img src={Image4} width='422' height='550' loading='lazy' alt='Hair Cutting' className='img-cover' />
               </figure>
 
               <div className='card-content'>

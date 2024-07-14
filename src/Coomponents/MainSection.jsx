@@ -3,6 +3,18 @@ import { FaArrowRight } from 'react-icons/fa6';
 import Image1 from '../assets/images/hero-banner.jpg';
 import Image2 from '../assets/images/pricing-bg.jpg';
 import Image3 from '../assets/images/pricing-1.jpg';
+import Image4 from '../assets/images/pricing-2.jpg';
+import Image5 from '../assets/images/pricing-3.jpg';
+import Image6 from '../assets/images/pricing-4.jpg';
+import Image7 from '../assets/images/pricing-5.jpg';
+import Image8 from '../assets/images/pricing-6.jpg';
+import Image9 from '../assets/images/pricing-7.jpg';
+import Image10 from '../assets/images/pricing-8.jpg';
+import Image11 from '../assets/images/appoin-banner-1.jpg';
+import Image12 from '../assets/images/appoin-banner-2.jpg';
+// import Image11 from '../assets/images/pricing-9.jpg';
+// import Image12 from '../assets/images/pricing-10.jpg';
+
 import ServicesWeProvid from './ServicesWeProvid/ServicesWeProvid';
 import LatestPhotoGallery from './LatestPhotoGallery/LatestPhotoGallery';
 
@@ -20,7 +32,7 @@ export default function MainSection() {
             className='section hero has-before has-bg-image'
             id='home'
             aria-label='home'
-            style={{ backgroundImage: `url(${Image1})` }}
+            style={{ backgroundImage: `url(${Image2})` }}
           >
             <div className='container'>
               <h1 className='h1 hero-title'>Barbers & Hair Cutting</h1>
@@ -29,13 +41,13 @@ export default function MainSection() {
                 Sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                 suspendisse ultrices gravida
               </p>
-              {/* 
+
               <a href='#' className='btn has-before'>
                 <span className='span'>Explore Our Services</span>
                 {/* */}
-              {/* <ion-icon name='arrow-forward' aria-hidden='true'></ion-icon> */}
-              {/* </a> */}
-              <FaArrowRight name='arrow-forward' aria-hidden='true' />
+                <ion-icon name='arrow-forward' aria-hidden='true'></ion-icon>
+              </a>
+              {/* <FaArrowRight name='arrow-forward' aria-hidden='true' /> */}
             </div>
           </section>
 
@@ -301,13 +313,7 @@ export default function MainSection() {
                   <li data-filter='shaving'>
                     <div className='pricing-card'>
                       <figure className='card-banner img-holder' style={{ width: 90, height: 90 }}>
-                        <img
-                          src='./assets/images/pricing-2.jpg'
-                          width='90'
-                          height='90'
-                          alt='Shaving & Facial'
-                          className='img-cover'
-                        />
+                        <img src={Image4} width='90' height='90' alt='Shaving & Facial' className='img-cover' />
                       </figure>
 
                       <div className='wrapper'>
@@ -325,13 +331,7 @@ export default function MainSection() {
                   <li data-filter='face-washing'>
                     <div className='pricing-card'>
                       <figure className='card-banner img-holder' style={{ width: 90, height: 90 }}>
-                        <img
-                          src='./assets/images/pricing-3.jpg'
-                          width='90'
-                          height='90'
-                          alt='Hair Color & Wash'
-                          className='img-cover'
-                        />
+                        <img src={Image5} width='90' height='90' alt='Hair Color & Wash' className='img-cover' />
                       </figure>
 
                       <div className='wrapper'>
@@ -349,13 +349,7 @@ export default function MainSection() {
                   <li data-filter='body-treatments'>
                     <div className='pricing-card'>
                       <figure className='card-banner img-holder' style={{ width: 90, height: 90 }}>
-                        <img
-                          src='./assets/images/pricing-4.jpg'
-                          width='90'
-                          height='90'
-                          alt='Body Massage'
-                          className='img-cover'
-                        />
+                        <img src={Image6} width='90' height='90' alt='Body Massage' className='img-cover' />
                       </figure>
 
                       <div className='wrapper'>
@@ -373,13 +367,7 @@ export default function MainSection() {
                   <li data-filter='beauty-spa'>
                     <div className='pricing-card'>
                       <figure className='card-banner img-holder' style={{ width: 90, height: 90 }}>
-                        <img
-                          src='./assets/images/pricing-5.jpg'
-                          width='90'
-                          height='90'
-                          alt='Beauty & Spa'
-                          className='img-cover'
-                        />
+                        <img src={Image7} width='90' height='90' alt='Beauty & Spa' className='img-cover' />
                       </figure>
 
                       <div className='wrapper'>
@@ -397,13 +385,7 @@ export default function MainSection() {
                   <li data-filter='face-washing'>
                     <div className='pricing-card'>
                       <figure className='card-banner img-holder' style={{ width: 90, height: 90 }}>
-                        <img
-                          src='./assets/images/pricing-6.jpg'
-                          width='90'
-                          height='90'
-                          alt='Facial & Face Wash'
-                          className='img-cover'
-                        />
+                        <img src={Image8} width='90' height='90' alt='Facial & Face Wash' className='img-cover' />
                       </figure>
 
                       <div className='wrapper'>
@@ -422,7 +404,8 @@ export default function MainSection() {
                     <div className='pricing-card'>
                       <figure className='card-banner img-holder' style={{ width: 90, height: 90 }}>
                         <img
-                          src='./assets/images/pricing-7.jpg'
+                          //   src='./assets/images/pricing-7.jpg'
+                          src={Image9}
                           width='90'
                           height='90'
                           alt='Backbone Massage'
@@ -445,13 +428,7 @@ export default function MainSection() {
                   <li data-filter='meditations'>
                     <div className='pricing-card'>
                       <figure className='card-banner img-holder' style={{ width: 90, height: 90 }}>
-                        <img
-                          src='./assets/images/pricing-8.jpg'
-                          width='90'
-                          height='90'
-                          alt='Meditation & Massage'
-                          className='img-cover'
-                        />
+                        <img src={Image10} width='90' height='90' alt='Meditation & Massage' className='img-cover' />
                       </figure>
 
                       <div className='wrapper'>
@@ -484,7 +461,8 @@ export default function MainSection() {
               <div className='appoin-card'>
                 <figure className='card-banner img-holder' style={{ width: 250, height: 774 }}>
                   <img
-                    src='./assets/images/appoin-banner-1.jpg'
+                    // src='./assets/images/appoin-banner-1.jpg'
+                    src={Image11}
                     width='250'
                     height='774'
                     loading='lazy'
@@ -540,7 +518,8 @@ export default function MainSection() {
 
                 <figure className='card-banner img-holder' style={{ width: 250, height: 774 }}>
                   <img
-                    src='./assets/images/appoin-banner-2.jpg'
+                    // src='./assets/images/appoin-banner-2.jpg'
+                    src={Image12}
                     width='250'
                     height='774'
                     loading='lazy'
